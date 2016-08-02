@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.skholingua.android.progressbar_circular.MainActivity" >
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:progress="1"
+        android:layout_marginTop="104dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/progressBar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="downloading"
+        android:textSize="10dp" />
+
+</RelativeLayout>
+<!-- From: file:/home/norman/coursera/Programming%20Mobile%20Applications%20for%20Android%20Handheld%20SystemsPart3-POSA/assignment1/app/src/main/res/layout/progress_bar.xml -->
